@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".fragment.FragmentNewsList"
+android:fillViewport="true"
+android:padding="4dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f9f9f9">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="16dp"
+        android:layout_margin="6dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#EFEDED"
+        app:cardCornerRadius="8dp"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/item_description_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="قوانین حریم خصوصی"
+                android:textSize="18sp"
+                android:textColor="#9F2828"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:id="@+id/txt_privacy_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:text="از آنجایی که صحت و سقم اطلاعات وارد شده توسط کاربران مورد تصدیق اپلیکیشن قرار نگرفته است، مسئولیت درج اطلاعات نادرست و سوءاستفاده از این سامانه به عهده‌ی اپلیکیشن نیست و  اپلیکیشن حق اقدام قانونی در قبال سوءاستفاده‌کنندگان این سامانه را برای خود محفوظ می‌دارد." />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_copy"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="16dp"
+        android:layout_margin="6dp"
+        app:cardBackgroundColor="#EFEDED"
+        app:cardCornerRadius="8dp"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/item_description_title_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="عدم بازنشر وسواستفاده از محتوا"
+                android:textSize="18sp"
+                android:textColor="#9F2828"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:id="@+id/txt_privacy_description_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+
+                android:text="از آنجایی که صحت و سقم اطلاعات وارد شده توسط کاربران مورد تصدیق اپلیکیشن قرار نگرفته است، مسئولیت درج اطلاعات نادرست و سوءاستفاده از این سامانه به عهده‌ی اپلیکیشن نیست و  اپلیکیشن حق اقدام قانونی در قبال سوءاستفاده‌کنندگان این سامانه را برای خود محفوظ می‌دارد." />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_shopping"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="16dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#EFEDED"
+        app:cardCornerRadius="8dp"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/item_description_title_shoping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مالکیت حقوق مادی ومعنوی آموزش ها دراختیار کوشارایان است."
+                android:textSize="18sp"
+                android:textColor="#9F2828"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:id="@+id/txt_privacy_description_shopping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:text="از آنجایی که صحت و سقم اطلاعات وارد شده توسط کاربران مورد تصدیق اپلیکیشن قرار نگرفته است، مسئولیت درج اطلاعات نادرست و سوءاستفاده از این سامانه به عهده‌ی اپلیکیشن نیست و  اپلیکیشن حق اقدام قانونی در قبال سوءاستفاده‌کنندگان این سامانه را برای خود محفوظ می‌دارد." />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_context"
+        android:layout_width="match_parent"
+        android:layout_margin="6dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="16dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#EFEDED"
+        app:cardCornerRadius="8dp"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/item_description_title_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="کپی برداری از محتوا خلاف قانون است"
+                android:textSize="18sp"
+                android:textColor="#9F2828"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:id="@+id/txt_privacy_description_context"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:text="از آنجایی که صحت و سقم اطلاعات وارد شده توسط کاربران مورد تصدیق اپلیکیشن قرار نگرفته است، مسئولیت درج اطلاعات نادرست و سوءاستفاده از این سامانه به عهده‌ی اپلیکیشن نیست و  اپلیکیشن حق اقدام قانونی در قبال سوءاستفاده‌کنندگان این سامانه را برای خود محفوظ می‌دارد." />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_view_khalaf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="16dp"
+        android:layout_margin="6dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="#EFEDED"
+        app:cardCornerRadius="8dp"
+        android:animateLayoutChanges="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="4dp">
+            <TextView
+                android:id="@+id/item_description_title_khalaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="خرید پستی ودریافت پکیج"
+                android:textSize="18sp"
+                android:textColor="#9F2828"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:id="@+id/txt_privacy_description_khalaf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:text="از آنجایی که صحت و سقم اطلاعات وارد شده توسط کاربران مورد تصدیق اپلیکیشن قرار نگرفته است، مسئولیت درج اطلاعات نادرست و سوءاستفاده از این سامانه به عهده‌ی اپلیکیشن نیست و  اپلیکیشن حق اقدام قانونی در قبال سوءاستفاده‌کنندگان این سامانه را برای خود محفوظ می‌دارد." />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
+</ScrollView>

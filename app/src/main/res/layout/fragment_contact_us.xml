@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+
+
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="فرم تماس با ما"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*برای سوال وارسال پیام بهتر است از فرم زیر استفاده کنید*"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+android:textStyle="bold"
+        android:textSize="14sp">
+
+    </TextView>
+
+    <EditText
+        android:layout_marginBottom="8dp"
+        android:id="@+id/frg_cantect_us_name"
+        android:padding="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+     android:layout_gravity="center"
+        android:hint="نام ونام خانوادگی*"
+        android:background="@drawable/edittextbackground"/>
+    <EditText
+        android:layout_marginBottom="8dp"
+        android:id="@+id/frg_cantect_us_email"
+        android:padding="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="ایمیل*"
+        android:background="@drawable/edittextbackground"/>
+    <EditText
+        android:id="@+id/frg_cantect_us_namber"
+        android:padding="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="تلفن تماس*"
+        android:background="@drawable/edittextbackground"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/frg_cantect_us_massage"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="200dp"
+        android:padding="4dp"
+        android:hint="متن پیام*"
+        android:gravity="start"
+
+        android:layout_marginBottom="16dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/frg_cantect_us_BtnSend"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="ثبت وارسال"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:cornerRadius="12dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#1E88E5"
+
+        />
+</LinearLayout>
+

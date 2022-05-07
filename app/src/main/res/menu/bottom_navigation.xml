@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="محصولات"
+        android:id="@+id/item_2"
+        android:icon="@drawable/ic_baseline_storefront_24"/>
+
+    <item
+        android:title="اخبار"
+        android:id="@+id/item_4"
+        android:icon="@drawable/ic_baseline_description_24"/>
+
+
+    <item
+        android:title="خانه"
+        android:id="@+id/item_3"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+
+    <item
+        android:title="تماس باما"
+        android:id="@+id/item_5"
+        android:icon="@drawable/ic_baseline_call_24"/>
+    <item
+        android:title="درباره ما"
+        android:id="@+id/item_1"
+        android:icon="@drawable/ic_baseline_info_24" />
+
+</menu>

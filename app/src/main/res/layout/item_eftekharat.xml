@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.FragmentNewsList"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f9f9f9"
+        >
+        <ImageView
+            android:id="@+id/img_eftekarat"
+            android:layout_margin="4dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_https_24">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/eftekarat_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="امنیت"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/eftekarat_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="درصد قابل توجه ازتوجه وهزینه در کوشارایان صرف تامین امنیت خاطر مشتریان می گردد واعتماد وسطح کیفی پشتیبانی در سطحی با استانداردی بالاتر از استانداردمورد نیاز کاربر عادی ارایه می گردد."
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

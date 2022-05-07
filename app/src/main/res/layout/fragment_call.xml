@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.FragmentNewsList"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:background="#f9f9f9"
+        >
+
+    <ImageView
+        android:id="@+id/fragmentdetails_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+      android:layout_weight="49"
+        android:src="@drawable/business"
+        android:scaleType="centerCrop"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/fragment_call_email"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:id="@+id/email"
+                        android:text="ایمیل:kosha.rayan123@gmail.com"
+                        android:singleLine="true"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        />
+                    <ImageView
+
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_email_24"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/fragment_call_call"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+                    <TextView
+                        android:id="@+id/call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:text="شماره تماس:08433333211233344"
+                        android:singleLine="true"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        />
+                    <ImageView
+
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_phone_24"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/fragment_call_addres"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:id="@+id/map"
+                        android:text=" آدرس:ایلام_ایوان_شرکت کوشارایان "
+                        android:singleLine="true"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        />
+                    <ImageView
+
+                        android:layout_margin="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_room_24"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/fragment_call_contactus"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:text="درصورت ارتباط با ما لطفا کلیک کنید"
+                        android:singleLine="true"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:id="@+id/moshaver"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_vertical"
+                        />
+                    <ImageView
+
+                        android:layout_margin="8dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_headset_mic_24"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layoutDirection="rtl">
+            <ImageView
+                android:id="@+id/frg_call_whatsapp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+
+                android:layout_height="48dp"
+
+                android:src="@drawable/whatsapp">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/frg_call_instagram"
+                android:layout_marginTop="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="38dp"
+                android:src="@drawable/instagram">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/frg_call_telegram"
+                android:layout_marginTop="4dp"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+
+                android:layout_height="38dp"
+                android:src="@drawable/telegram"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+

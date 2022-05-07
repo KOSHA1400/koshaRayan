@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_height="100dp"
+    android:elevation="4dp"
+    android:id="@+id/card_massage_code"
+    app:layout_constraintCircleRadius="10dp"
+    tools:context=".fragment.FragmentCode">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/frg_code_txt_code_r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+        android:text="کدرهگیری شما :44890"/>
+
+    <TextView
+        android:id="@+id/frg_code_txt_stat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+        android:text="وضعیت پاسخ:"/>
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

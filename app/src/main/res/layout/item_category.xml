@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="12dp"
+    android:layout_marginStart="8dp">
+    <TextView
+        android:id="@+id/category"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ورزشی"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+</com.google.android.material.card.MaterialCardView>

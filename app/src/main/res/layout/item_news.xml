@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    android:layout_margin="8dp"
+    android:layout_gravity="end"
+    android:elevation="4dp"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <LinearLayout
+          android:layout_margin="8dp"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"
+            android:orientation="vertical"
+            android:layoutDirection="rtl">
+            <TextView
+                android:id="@+id/item_recycler_name_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="متن اخبار"
+                android:singleLine="true"
+                android:padding="2dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_gravity="start"
+                />
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:orientation="vertical"/>
+                <TextView
+                    android:id="@+id/item_titel"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="علمی_تکنولوژی"
+                    android:layout_marginBottom="4dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1ساعت پیش"
+                    android:textColor="#000"/>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#000"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اخبار روز"
+                    android:textColor="#1976D2"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_margin="4dp"
+            android:layout_height="70dp"
+            android:layout_weight="30"
+            app:cardCornerRadius="8dp">
+            <ImageView
+
+                android:scaleType="centerCrop"
+                android:id="@+id/img_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/site"/>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+
